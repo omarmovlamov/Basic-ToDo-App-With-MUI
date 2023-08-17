@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f0e5;
+  background-attachment: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100dvh;
+}
+header {
+  background-color: #102c57;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.taskDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.formDiv {
+  padding: 20px;
+  border: 1px solid #dac0a3;
+  border-radius: 30px;
+}
+.formDiv input {
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+.formDiv textarea {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  resize: none;
+}
+.todoButton {
+  width: 100px;
+}
+.contentDiv {
+  border: 1px solid #dac0a3;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  min-width: 250px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 5px;
+}

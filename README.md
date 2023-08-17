@@ -1,3 +1,7 @@
+## About the project
+In this project, I created a simple/medium Todo list project using Material UI.
+Task addition and task deletion operations are available
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
